@@ -1,1 +1,1 @@
-(https://something().com)
+[link]
