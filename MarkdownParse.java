@@ -22,6 +22,9 @@ public class MarkdownParse {
             System.out.println("openParat: " + openParen);
             int closeParen = markdown.indexOf(")", openParen);
             System.out.println("closeParen: " + closeParen);
+            if(nextCloseBracket +1 != openParen) {
+                break;
+            }
             if(nextCloseBracket == -1 ||
                       openParen == -1 ||
                       closeParen == -1 ){
